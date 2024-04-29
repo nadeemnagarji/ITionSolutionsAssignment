@@ -94,7 +94,7 @@ useEffect(()=>{
         <div className="w-full flex flex-col  ">
             <Navbar />
             <SearchComp />
-            <div className="w-full flex justify-center gap-5 px-5  m-auto  mt-5  flex-wrap  ">
+            <div className="w-full flex justify-center gap-5 px-5  m-auto  mt-5 flex-wrap ">
             <Select  options={genre} onChange={handleGenre} className="w-40" />
             <Select  options={Language}  onChange={handleLang} className="w-40" />
             <Select options={country}   onChange={handleCountry} className="w-40" />
