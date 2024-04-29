@@ -1,0 +1,1 @@
+Just unzip and run the command npm run dev to run the code in any code editor
